@@ -1,4 +1,4 @@
-{% set name = "dpd-components" %}
+{% set name = "dpd_components" %}
 {% set version = "0.1.0" %}
 
 package:
@@ -14,26 +14,50 @@ build:
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
   number: 0
 
-requirements:
-  host:
-    - python >=3.8
-    - pip
-  run:
-    - python >=3.8
-    - plotly
-    - dash >=2.0,<2.10
-    - dash-bootstrap-components
-    - dash-core-components
-    - dash-html-components
-    - dash-table
+outputs:
+  - name: {{ name }}
+    version: {{ version }}
+    requirements:
+      host:
+        - python >=3.8
+        - pip
+      run:
+        - python >=3.8
+        - plotly
+        - dash >=2.0,<2.10
+        - dash-bootstrap-components
+        - dash-core-components
+        - dash-html-components
+        - dash-table
+    test:
+      imports:
+        - dpd_components
+      commands:
+        - pip check
+      requires:
+        - pip
 
-test:
-  imports:
-    - dpd_components
-  commands:
-    - pip check
-  requires:
-    - pip
+  - name: dpd-components
+    version: {{ version }}
+    requirements:
+      host:
+        - python >=3.8
+        - pip
+      run:
+        - python >=3.8
+        - plotly
+        - dash >=2.0,<2.10
+        - dash-bootstrap-components
+        - dash-core-components
+        - dash-html-components
+        - dash-table
+    test:
+      imports:
+        - dpd_components
+      commands:
+        - pip check
+      requires:
+        - pip
 
 about:
   home: https://github.com/GibbsConsulting/dpd-components
