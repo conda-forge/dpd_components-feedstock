@@ -1,11 +1,11 @@
-About dpd_components
-====================
+About dpd_components-feedstock
+==============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/dpd_components-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/GibbsConsulting/dpd-components
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/dpd_components-feedstock/blob/main/LICENSE.txt)
 
 Summary: Django Plotly Dash component suite
 
@@ -31,66 +31,24 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>linux_64_python3.7.____cpython</td>
+              <td>linux_64</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=16035&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/dpd_components-feedstock?branchName=main&jobName=linux&configuration=linux_64_python3.7.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/dpd_components-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_python3.8.____cpython</td>
+              <td>osx_64</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=16035&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/dpd_components-feedstock?branchName=main&jobName=linux&configuration=linux_64_python3.8.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/dpd_components-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_python3.9.____cpython</td>
+              <td>win_64</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=16035&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/dpd_components-feedstock?branchName=main&jobName=linux&configuration=linux_64_python3.9.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_64_python3.7.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=16035&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/dpd_components-feedstock?branchName=main&jobName=osx&configuration=osx_64_python3.7.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_64_python3.8.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=16035&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/dpd_components-feedstock?branchName=main&jobName=osx&configuration=osx_64_python3.8.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_64_python3.9.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=16035&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/dpd_components-feedstock?branchName=main&jobName=osx&configuration=osx_64_python3.9.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>win_64_python3.7.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=16035&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/dpd_components-feedstock?branchName=main&jobName=win&configuration=win_64_python3.7.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>win_64_python3.8.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=16035&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/dpd_components-feedstock?branchName=main&jobName=win&configuration=win_64_python3.8.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>win_64_python3.9.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=16035&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/dpd_components-feedstock?branchName=main&jobName=win&configuration=win_64_python3.9.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/dpd_components-feedstock?branchName=main&jobName=win&configuration=win%20win_64_" alt="variant">
                 </a>
               </td>
             </tr>
@@ -106,6 +64,7 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-dpd--components-green.svg)](https://anaconda.org/conda-forge/dpd-components) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/dpd-components.svg)](https://anaconda.org/conda-forge/dpd-components) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/dpd-components.svg)](https://anaconda.org/conda-forge/dpd-components) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/dpd-components.svg)](https://anaconda.org/conda-forge/dpd-components) |
 | [![Conda Recipe](https://img.shields.io/badge/recipe-dpd_components-green.svg)](https://anaconda.org/conda-forge/dpd_components) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/dpd_components.svg)](https://anaconda.org/conda-forge/dpd_components) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/dpd_components.svg)](https://anaconda.org/conda-forge/dpd_components) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/dpd_components.svg)](https://anaconda.org/conda-forge/dpd_components) |
 
 Installing dpd_components
@@ -118,41 +77,41 @@ conda config --add channels conda-forge
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `dpd_components` can be installed with `conda`:
+Once the `conda-forge` channel has been enabled, `dpd-components, dpd_components` can be installed with `conda`:
 
 ```
-conda install dpd_components
-```
-
-or with `mamba`:
-
-```
-mamba install dpd_components
-```
-
-It is possible to list all of the versions of `dpd_components` available on your platform with `conda`:
-
-```
-conda search dpd_components --channel conda-forge
+conda install dpd-components dpd_components
 ```
 
 or with `mamba`:
 
 ```
-mamba search dpd_components --channel conda-forge
+mamba install dpd-components dpd_components
+```
+
+It is possible to list all of the versions of `dpd-components` available on your platform with `conda`:
+
+```
+conda search dpd-components --channel conda-forge
+```
+
+or with `mamba`:
+
+```
+mamba search dpd-components --channel conda-forge
 ```
 
 Alternatively, `mamba repoquery` may provide more information:
 
 ```
 # Search all versions available on your platform:
-mamba repoquery search dpd_components --channel conda-forge
+mamba repoquery search dpd-components --channel conda-forge
 
-# List packages depending on `dpd_components`:
-mamba repoquery whoneeds dpd_components --channel conda-forge
+# List packages depending on `dpd-components`:
+mamba repoquery whoneeds dpd-components --channel conda-forge
 
-# List dependencies of `dpd_components`:
-mamba repoquery depends dpd_components --channel conda-forge
+# List dependencies of `dpd-components`:
+mamba repoquery depends dpd-components --channel conda-forge
 ```
 
 
@@ -174,7 +133,7 @@ available continuous integration services. Thanks to the awesome service provide
 [CircleCI](https://circleci.com/), [AppVeyor](https://www.appveyor.com/),
 [Drone](https://cloud.drone.io/welcome), and [TravisCI](https://travis-ci.com/)
 it is possible to build and upload installable packages to the
-[conda-forge](https://anaconda.org/conda-forge) [Anaconda-Cloud](https://anaconda.org/)
+[conda-forge](https://anaconda.org/conda-forge) [anaconda.org](https://anaconda.org/)
 channel for Linux, Windows and OSX respectively.
 
 To manage the continuous integration and simplify feedstock maintenance
@@ -223,4 +182,5 @@ Feedstock Maintainers
 =====================
 
 * [@karthick1304](https://github.com/karthick1304/)
+* [@rxm7706](https://github.com/rxm7706/)
 
