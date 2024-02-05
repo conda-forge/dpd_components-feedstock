@@ -50,7 +50,7 @@ outputs:
         - dash-table
     test:
       imports:
-        - dpd_components
+        - dpd-components
       commands:
         - pip check
       requires:
