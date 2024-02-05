@@ -15,8 +15,7 @@ build:
   number: 0
 
 outputs:
-  - name: {{ name }}
-    version: {{ version }}
+  - name: dpd_components
     requirements:
       host:
         - python >=3.8
@@ -36,9 +35,7 @@ outputs:
         - pip check
       requires:
         - pip
-
   - name: dpd-components
-    version: {{ version }}
     requirements:
       host:
         - python >=3.8
