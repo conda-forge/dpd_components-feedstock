@@ -35,26 +35,7 @@ outputs:
         - pip check
       requires:
         - pip
-  - name: dpd-components
-    requirements:
-      host:
-        - python >=3.8
-        - pip
-      run:
-        - python >=3.8
-        - plotly
-        - dash >=2.0,<2.10
-        - dash-bootstrap-components
-        - dash-core-components
-        - dash-html-components
-        - dash-table
-    test:
-      imports:
-        - dpd-components
-      commands:
-        - pip check
-      requires:
-        - pip
+
 about:
   home: https://github.com/GibbsConsulting/dpd-components
   license: MIT
